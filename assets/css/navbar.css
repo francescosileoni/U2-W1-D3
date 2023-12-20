@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+}
+header {
+  height: 100vh;
+}
+nav {
+  background-color: #fbf7e3;
+  font-size: 1.5em;
+  height: 15%;
+  display: flex;
+  margin: 0 20px;
+  border-radius: 10%;
+}
+nav ul li a {
+  color: #612407;
+  text-decoration: none;
+}
+a:visited {
+  color: #612407;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.li-content {
+  background-color: #f3df85;
+  margin: 1em;
+  text-align: center;
+  width: 160px;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20%;
+}
+#shop {
+  flex-grow: 1;
+  height: 70%;
+
+  justify-content: space-around;
+}
+img {
+  width: 50px;
+}

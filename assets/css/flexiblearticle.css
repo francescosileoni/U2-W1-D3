@@ -1,0 +1,20 @@
+article {
+  margin: 25px;
+  background-color: #fbf7e3;
+  color: #612407;
+  display: flex;
+  border-radius: 2%;
+}
+img {
+  padding: 1.5em;
+}
+#description {
+  font-size: 1.2em;
+  display: flex;
+  flex-direction: column;
+
+  padding-right: 1em;
+}
+h3 {
+  margin-top: 2em;
+}
